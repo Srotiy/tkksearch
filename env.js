@@ -14,8 +14,8 @@ function findTypeByName() {
         return false;
     }
     const fuse = new Fuse(csvData, {
-        keys: ['class', 'className'],
-        minMatchCharLength: 3
+        keys: ['class', 'className','管理单位'],
+        minMatchCharLength: 2
     })
     const FinalJson = fuse.search(name)
     console.log(name)
