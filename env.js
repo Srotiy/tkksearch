@@ -28,5 +28,5 @@ function findTypeByName() {
     Finaled = Finaled + '' + Final 
     }
     var insertDiv = document.getElementById("Final")
-    insertDiv.innerHTML = '<div class="notification is-primary">' + Finaled + '</div>'
+    insertDiv.innerHTML = '<div class="notification is-primary">' + Finaled + '</div>';
 }
