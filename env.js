@@ -15,7 +15,7 @@ function findTypeByName() {
     }
     const fuse = new Fuse(csvData, {
         keys: ['class', 'className','管理单位'],
-        minMatchCharLength: 2
+        minMatchCharLength: 2,
     })
     const FinalJson = fuse.search(name)
     console.log(name)
@@ -29,4 +29,5 @@ function findTypeByName() {
     }
     var insertDiv = document.getElementById("Final")
     insertDiv.innerHTML = '<div class="notification is-primary"><span class="tag is-info">找到' + FinalJson.length + '个结果</span><br><br>' + Finaled + '</div>'
+    return false;
 }
