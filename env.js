@@ -29,4 +29,5 @@ function findTypeByName() {
     }
     var insertDiv = document.getElementById("Final")
     insertDiv.innerHTML = '<div class="notification is-primary">' + Finaled + '</div>';
+    return true;
 }
