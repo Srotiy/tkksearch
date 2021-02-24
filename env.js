@@ -23,7 +23,7 @@ function findTypeByName() {
     var Finaled = ''
     for (var i=0;i<FinalJson.length;i++) {
     console.log(i)
-    Final = '<span class="tag is-danger">' + (FinalJson[i].item.className) + '</span><br>' + (FinalJson[i].item.type) + '<br>' + (FinalJson[i].item.group) + (FinalJson[i].item.comments) + '<br>'
+    Final = '<span class="tag is-danger">' + (FinalJson[i].item.className) + '</span><br>' + (FinalJson[i].item.type) + '<br>' + (FinalJson[i].item.group) + '<br>' + (FinalJson[i].item.comments) + '<br>'
     console.log(Final)
     Finaled = Finaled + '' + Final 
     }
