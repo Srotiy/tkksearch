@@ -27,7 +27,6 @@ function findTypeByName() {
     console.log(Final)
     Finaled = Finaled + '' + Final 
     }
-    var insertDiv = document.getElementById("Final")
-    insertDiv.innerHTML = '<div class="notification is-primary"><span class="tag is-info">找到' + FinalJson.length + '个结果</span><br><br>' + Finaled + '</div>'
+    document.getElementById("Final").innerHTML = '<div class="notification is-primary"><span class="tag is-info">找到' + FinalJson.length + '个结果</span><br><br>' + Finaled + '</div>'
     return false;
 }
