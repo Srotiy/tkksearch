@@ -29,5 +29,4 @@ function findTypeByName() {
     }
     var insertDiv = document.getElementById("Final")
     insertDiv.innerHTML = '<div class="notification is-primary"><span class="tag is-info">找到' + FinalJson.length + '个结果</span><br><br>' + Finaled + '</div>'
-    return true
 }
