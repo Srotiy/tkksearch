@@ -1,4 +1,4 @@
-Papa.parse('//pud-x.bj.bcebos.com/data.csv', {
+Papa.parse('//pud-x.cdn.bcebos.com/data-2021-02-26.CSV', {
     download: true,
     header: true,
     complete: function (results, file) {
